@@ -6,7 +6,9 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-  <x-header />
-  <x-form.login />
+    <x-navbar />
+    <div>
+      <x-form.login />
+    </div>
 </body>
 </html>
